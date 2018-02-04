@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang= "en-US"> 
+	<head>
+		<style> 
+			html{ 
+				background: url("sunset.jpg") no-repeat center center fixed; 
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+			}
+			
+			table {
+				border: 2px solid blue;
+				align:center;
+				margin:auto;
+				width: 100%;
+				border-collapse: collapse;
+				margin-top: 10px;
+				table-layout:fixed;
+				background-image: url("background1.jpg");
+			}
+			
+			div.gallery {
+						margin: 5px;
+						border: 1px solid #ccc;
+						float: left;
+						width: 400px; 
+						//height: 250px;
+						
+			}
+
+
+			img.gallery {
+				width: 100%;
+				//height: auto;
+				display: inline-block;
+				vertical-align: top;
+			}
+
+			div.desc {
+				padding: 15px;
+				text-align: center;
+				display: inline-block;
+				vertical-align: bottom;
+			}
+			
+			td { 
+				align:center;
+				margin:auto;
+				border color: 2px solid blue;
+				color:white
+				padding: 0px 1000px;
+				text-align: center;
+				border: 3px solid purple;
+				border-style:inset;
+				background-color:grey;
+			}
+			
+			button:hover {
+				background-color: #9C96DB;
+			}
+			
+			a {
+				cursor: pointer;	
+			}
+			
+			td:hover { 
+				text-decoration:2px solid white;
+				background-color:#20B2AA;					
+			}
+			
+			.rotateimg {
+				transform:rotate(180deg);
+			}
+			
+			button {
+				background-color:#FFD700;
+				color:black;
+				margin:auto;
+				padding: 0px 100px;				 
+				border:2px solid blue;
+				cursor:pointer;
+			}
+
+		</style>
+		<title> Hobbies and Interests </title>
+			<meta name="author" content= "Vedant Shah">
+			<meta name="description" content="Hello! My name is Vedant Shah. This page will be my homepage where I will talk about who I am, why I made this game, and how you can make your website.">
+			<meta name="created" content="April 10, 2017">
+			<meta name="last-modified" content="April 13, 2017">
+	</head>
+	<!-- 
+	Author Name: Vedant Shah
+	File Name: VedantShah.html
+	Date Last Modified: April 13, 2017
+	Date Created: April 10, 2017
+	-->
+	
+	
+		<body style= "margin:auto;" "color:pink;">
+			<div style="text-align:center;">
+				<img src="me1.png">
+			</div>
+			
+			<table style= "margin:auto; width:90%;">
+				<tr>
+					<td><a href="index.html" style= "color: blue;"><img src="home.png" width="100" height="100" alt="Home"></a> </td>  
+					<td><a href="allaboutme.html" style= "color: red;"><img src="allaboutme.jpeg" width="200" height="100" alt="All About Me"></a></td>
+					<td><a href="projects.html" style= "color: orange;"><img src="projects1.png" width="100" height="100" alt="Projects"></a></td>
+					<td><a href="photogallery.html" style= "color: pink;"><img src="photogallery.png" width="200" height="100" alt="Photo Gallery"></a></td>
+					<td><a href="goalsinlife.html" style= "color: green;"><img src="goalsinlife.gif" width="100" height="100" alt="Goals In Life"></a></td>
+				</tr>
+				<tr>
+					<td style="width: 20%;"><a href="index.html" style= "color: blue;"><button> Home </button></a></td>  
+					<td><a href="allaboutme.html" style= "color: red;"><button>  About Me </button></a></td>
+					<td><a href="projects.html" style= "color: orange;"><button> Projects </button></a></td>
+					<td><a href="photogallery.html" style= "color: pink;"><button> Photo Gallery </button></a></td>
+					<td><a href="goalsinlife.html" style= "color: green;"><button> Life Goals </button></a></td>
+				</tr>
+				<tr>
+					<!--
+						Below are images about me and my family. I decided to make a photo gallery because it shows what type person I am and how I live my life. 
+						Pictures resemble many things of a person and dictates what the person is like! I hope you like them. 
+					-->
+					<td colspan="5"> 
+						<h3 style="color:gold;"> This page is a photo gallery and has some photos of me and my family. Hope you enjoy them and I also hope you like this website so far. </h3>
+						
+						<div class="gallery">
+							
+								<img class="gallery" src="IMG_0048.jpg" width="250" height="350" alt="My friend John and I">
+						
+							
+						<div class="desc" style="color:#b62f2f;"><b>This is my best friend John Carter and I.</b> </div>
+						</div>
+						
+						<div class="gallery">
+							
+								<img class="gallery" src="IMG_0306.jpg" width="200" height="350" alt="Me at Statue of Liberty, New York">  
+							
+						<div class="desc" style="color:#ff8c1a;"><b>In this picture, I am in New York holding the Statue of Liberty.</b> </div>
+						</div>
+
+						<div class="gallery">
+							
+								<img class="gallery" src="ottawa.jpg" width="400" height="350" alt="Indian Consulate of Canada with my grade 8 teacher">  
+							
+						<div class="desc" style="color:#b62f2f;"><b>Here, I am with the Indian Consulate of Canada with my grade 8 teacher, Mr. Fisher, during my school trip in Ottawa. </b></div>
+						</div>
+						
+						<div class="gallery">
+						<!--
+							The weather in India was very hot, but since my trip to Florida the year before, I did not feel a lot of heat. My favourite place in India was 
+							the Taj Mahal in Agra because of the beautiful carvings and usage of stones from all over the world. 
+						-->
+							
+								<img class="gallery" src="india.jpg" width="00" height="350" alt="India Trip" > 
+							
+						<div class="desc" style="color:#ff8c1a;"><b>This is a picture of me when I went to India in 2017 looking into the valleys of Jaipur.</b> </div>
+						</div>
+						
+						<div class="gallery">
+							
+								<img class="gallery" src="child.jpg" width="400" height="350" alt="Me as a Child">
+							
+						<div class="desc" style="color:#b62f2f;"><b>In this picture, I am doing arts and crafts. I AM THE NEXT PICASSO! Just joking!! </b></div>
+						</div>
+						
+						<div class="gallery">
+							
+								<img src="medival.jpg" width="400" height="350" alt="Medival Evening">  
+							
+						<div class="desc" style="color:#ff8c1a;"><b>This picture was taken during a medival event my family and my uncle's family went through. As you can, there is my cousin sister, Nidhi on the left, me in the middle, and my cousin brother, Kara on the right.</b> </div>
+						</div>
+						
+						<div class="gallery">
+							
+								<img src="vedant.jpg" width="400" height="350" alt="My Parents and I"> 
+							
+						<div class="desc" style="color:#b62f2f;"><b> In this picture, I am with my mother and my father.</b> </div>
+						</div>
+						
+						<div class="gallery">
+							
+								<img class="gallery" src="family.jpg" width="400" height="350" alt="My 8th Birthday">  
+							
+						<div class="desc" style="color:#ff8c1a;"><b> This is a picture of my entire family, which consists of my mother, my father, and my late sister. This was a suprise birthday party for and I did not know about until everyone yelled, "Suprise"! </b> </div>
+						</div>
+						
+						<div class="gallery">
+								<!--
+									My first winter in Canada was crazy. It was really cold but I adapted to the weather really quickly. One thing I loved to do in the snow 
+									was to make snow angels and I sometimes rememeber those days. Wish I could go back!
+								-->
+							
+								<img class="gallery" src="cousinandi.jpg" width="400" height="350" alt="My Cousin and I">
+							
+						<div class="desc" style="color:#b62f2f;"><b>Here, my cousin sister, Nidhi is with me and it was also my first winter in Canada. It was really cold because
+                                          I had not lived in a country where snow existed. </b></div>
+						</div>
+						
+						<div class="gallery">
+							
+								<img class="gallery" src="myaward.jpg" width="400" height="350" alt="Award at Graduation">
+							
+						<div class="desc" style="color:#ff8c1a;"><b>In this picture, I am with my teacher, Ms. Baker, who was heading out the Member of Provincial Parliament toward to me.
+										  I was really anxious that day if I was going to win the award or not as it was my goal since the beginning of the year. </b> </div>
+						</div>
+						
+						<div class="gallery">
+							
+								<img class="gallery" src="myaward1.jpg" width="250" height="350" alt="Award at Graduation Solo">  
+							
+						<div class="desc" style="color:#b62f2f;"><b>This is a picture of me with the award I won at graduation in grade 8 in front of my middle school.</b> </div>
+						</div>
+						
+						<div class="gallery">
+								<!--
+									My cousin and I did a dance on three Hindi songs and it was fantastic. The bride and groom gave us a gift for our dance and our parents loved it 
+									too. The entire crowd loved our dance and it took days to complete the dance. 
+								-->
+								<img class="gallery" src="party.jpg" width="400" height="350" alt="My Cousin and I at party">  
+							
+						<div class="desc" style="color:#ff8c1a;"><b>My cousin Nidhi and I were doing a small dance for our family friend's son's wedding. It was 
+										  a very complicated dance but we did great because people gave us good comments. </b> </div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</body>
+</html>
+		
+				
+				
+		
